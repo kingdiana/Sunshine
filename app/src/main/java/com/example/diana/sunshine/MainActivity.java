@@ -13,7 +13,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
     private final String LOG_TAG = MainActivity.class.getSimpleName();
-/*
+
     @Override
     protected void onStart() {
         Log.d(LOG_TAG, "onStart called");
@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
         Log.d(LOG_TAG, "onStop called");
         super.onStop();
     }
-*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(LOG_TAG, "onCreate called");
@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
                     .commit();
         }
     }
-/*
+
     @Override
     protected void onDestroy() {
         Log.d(LOG_TAG, "onDestroy called");
@@ -55,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
         Log.d(LOG_TAG, "onResume called");
         super.onResume();
     }
-*/
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
